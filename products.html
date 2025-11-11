@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CaribWords | Books</title>
+  <link rel="stylesheet" href="../style.css" />
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="../Assets/logo.png" alt="CaribWords Logo" class="logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Books</a>
+      <a href="cart.html">Cart</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background: linear-gradient(135deg, #006666, #00b3b3), center/cover no-repeat;">
+    <h1>Explore Our Caribbean Library</h1>
+    <p>From folklore to poetry — immerse yourself in the voices that shape the Caribbean story.</p>
+  </section>
+
+  <section class="featured">
+    <h2>Available E-Books</h2>
+    <div class="grid">
+
+      <div class="book-card">
+        <img src="../Assets/anancy_stories.jpg" alt="Anancy Stories by Louise Bennett" />
+        <h3>Anancy Stories</h3>
+        <p>Traditional Jamaican folklore about the mischievous spider Anancy, retold with humor and wit.</p>
+        <p><strong>$4.99</strong></p>
+        <button class="btn-small" onclick="addToCart('Anancy Stories', 4.99, '../Assets/anancy_stories.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="../Assets/green_days_by_the_river.jpg" alt="Green Days by the River by Michael Anthony" />
+        <h3>Green Days by the River</h3>
+        <p>A coming-of-age novel set in Trinidad, capturing youth, love, and island life.</p>
+        <p><strong>$6.50</strong></p>
+        <button class="btn-small" onclick="addToCart('Green Days by the River', 6.50, '../Assets/green_days_by_the_river.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="../Assets/miguel_street.jpg" alt="Miguel Street by V.S. Naipaul" />
+        <h3>Miguel Street</h3>
+        <p>V.S. Naipaul’s timeless stories about life and humor in a vibrant Trinidadian neighborhood.</p>
+        <p><strong>$7.99</strong></p>
+        <button class="btn-small" onclick="addToCart('Miguel Street', 7.99, '../Assets/miguel_street.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="../Assets/young_warriors.jpg" alt="The Young Warriors by Victor Stafford Reid" />
+        <h3>The Young Warriors</h3>
+        <p>A tale of courage and growth during the Maroon Wars of Jamaica — a school classic.</p>
+        <p><strong>$5.99</strong></p>
+        <button class="btn-small" onclick="addToCart('The Young Warriors', 5.99, '../Assets/young_warriors.jpg')">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="../Assets/claude_mckay.jpg" alt="Poems by Claude McKay" />
+        <h3>Poems by Claude McKay</h3>
+        <p>Powerful poetry exploring identity, resilience, and Caribbean spirit from the Harlem Renaissance icon.</p>
+        <p><strong>$4.50</strong></p>
+        <button class="btn-small" onclick="addToCart('Poems by Claude McKay', 4.50, '../Assets/claude_mckay.jpg')">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Build Your Island Bookshelf</h2>
+    <p>Read, learn, and celebrate the voices that make the Caribbean unique.</p>
+    <a href="cart.html" class="btn">View Your Cart</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CaribWords | Developed by Davian Williams</p>
+  </footer>
+</body>
+</html>

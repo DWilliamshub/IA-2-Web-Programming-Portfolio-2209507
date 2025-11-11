@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CaribWords | Cart</title>
+  <link rel="stylesheet" href="../style.css" />
+  <script src="../script.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="../Assets/logo.png" alt="CaribWords Logo" class="logo" />
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Books</a>
+      <a href="cart.html" class="active">Cart</a>
+      <a href="about.html">About</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background: linear-gradient(135deg, #006666, #00b3b3), center/cover no-repeat;"> 
+    <h1>Your Shopping Cart</h1>
+    <p>Review your selections and proceed to checkout. Every book supports Caribbean authors and storytellers.</p>
+  </section>
+
+  <section class="featured" style="background-color: #fff;">
+    <h2>Items in Your Cart</h2>
+
+    <div id="cart-container" class="cart-container">
+      <p class="empty-cart">Your cart is empty — go explore our <a href="products.html" style="color: #008C8C;">book collection</a>!</p>
+    </div>
+
+    <div id="cart-summary" class="cart-summary" style="display: none;">
+      <h3>Order Summary</h3>
+      <p><strong>Subtotal:</strong> <span id="subtotal">$0.00</span></p>
+      <p><strong>Tax (10%):</strong> <span id="tax">$0.00</span></p>
+      <p><strong>Total:</strong> <span id="total">$0.00</span></p>
+      <a href="checkout.html" class="btn">Proceed to Checkout</a>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Want more stories?</h2>
+    <p>Discover the legends, poetry, and imagination of Caribbean writers.</p>
+    <a href="products.html" class="btn">Continue Shopping</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CaribWords | Developed by Davian Williams</p>
+  </footer>
+</body>
+</html>
